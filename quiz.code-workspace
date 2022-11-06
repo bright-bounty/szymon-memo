@@ -1,0 +1,55 @@
+{
+  "folders": [
+    {
+      "name": "🌱 root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "terminal.integrated.cwd": "./",
+    "task.allowAutomaticTasks": "on"
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "dev server",
+        "type": "shell",
+        "command": "npm run dev",
+        "icon": {
+          "color": "terminal.ansiGreen"
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "new",
+          "group": "development",
+          "showReuseMessage": true,
+          "clear": false
+        },
+        "runOptions": {
+          "instanceLimit": 1,
+          "runOn": "folderOpen"
+        },
+        "problemMatcher": [
+          "$eslint-compact"
+        ]
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "editorconfig.editorconfig",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "ms-vsliveshare.vsliveshare-pack",
+      "folke.vscode-monorepo-workspace",
+      "humao.rest-client",
+      "bradlc.vscode-tailwindcss",
+      "Tobermory.es6-string-html",
+      "rubbersheep.gi",
+      "stylelint.vscode-stylelint"
+    ]
+  }
+}
