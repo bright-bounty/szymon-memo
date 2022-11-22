@@ -1,4 +1,5 @@
-import "./src/scss/layout/Header.js";
+import './src/scss/main.scss';
+import Header from './src/layout/Header';
 
-const app = document.getElementById("header");
-app.appendChild(app);
+const app = document.getElementById('app');
+app.appendChild(Header);
