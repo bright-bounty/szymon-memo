@@ -4,6 +4,4 @@ import ContentWrapper from './src/layout/ContentWrapper';
 
 const app = document.getElementById('app');
 app.appendChild(Header);
-
-const content = document.getElementById('content');
-content.appendChild(ContentWrapper);
+app.appendChild(ContentWrapper);
